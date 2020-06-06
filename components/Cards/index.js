@@ -59,8 +59,9 @@ const cards = () => {
     axios.get('https://lambda-times-backend.herokuapp.com/articles/')
         .then(response => {
 
-            const articles = response.data.articles
-            const articleKey = Object.keys(articles)
+            const articles = response.data.articles // bootstrap/javascript 
+            const articleKey = Object.keys(articles) // Gives you the keys of those 
+            console.log(articleKey +" keys of those articles ")
 
             articleKey.forEach(arr => {
 
