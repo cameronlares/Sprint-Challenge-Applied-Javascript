@@ -29,15 +29,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead.
 
 1. What is the DOM?
-
-2. What is an event?
+The DOM is the api that communicates with our HTML
+2. What is an event? 
+An event is an action that takes place when it is activated 
 
 3. What is an event listener?
-
+An event listener listens to when an event occurs and takes an action such as a 'click' event
 4. Why would we convert a NodeList into an Array?
-
+So we manipulate a Nodelist the same way we do with a normal array.
 5. What is a component?
-
+A component is a reusable peice of code that can used for the DOM
 ### Git Set up
 
 * [ ] Fork the project into your GitHub user account
